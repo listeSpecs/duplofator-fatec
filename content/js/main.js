@@ -16,7 +16,7 @@ const validarLogin = async () => {
 
   localStorage.setItem('codigo', validacao);
 
-  window.location.href = "file:///D:/listeSpecs/Fatec/Site_2factor/verificacao.html"
+  window.location.href = "https://listespecs.github.io/duplofator-fatec/verificacao"
 }
 
 const validarCodigo = async () => {
@@ -28,5 +28,5 @@ const validarCodigo = async () => {
     return alert('Infelizmente o código é inválido');
   }
 
-  window.location.href = "file:///D:/listeSpecs/Fatec/Site_2factor/validado.html"
+  window.location.href = "https://listespecs.github.io/duplofator-fatec/validado"
 }
